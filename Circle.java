@@ -54,18 +54,8 @@ public class Circle {
         Circle circle1 = new Circle();
         System.out.println(circle1.toString());
 
-        // Test constructor with radius
-        Circle circle2 = new Circle(2.5);
-        System.out.println(circle2.toString());
+        
 
-        // Test constructor with radius and color
-        Circle circle3 = new Circle(3.0, "blue");
-        System.out.println(circle3.toString());
 
-        // Test setters and getters
-        circle3.setRadius(4.0);
-        circle3.setColor("green");
-        System.out.println("Updated circle: " + circle3);
-        System.out.println("Circle3 area: " + circle3.getArea());
     }
 }
